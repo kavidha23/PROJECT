@@ -10,7 +10,8 @@ import { UserEditComponent } from './user-edit/user-edit.component';
 
 
 const routes: Routes = [
-    { path: '', redirectTo: 'user', pathMatch: 'full' },
+    
+
     { path: 'users', component: UserListComponent },
     { path: 'add', component: CreateUserComponent },
     { path: 'detail/:id', component: UserDetailsComponent },
